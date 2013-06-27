@@ -1,1 +1,1 @@
-server 'bbratboard', :app, :web, :db, :primary => true
+server 'sharedrat', :app, :web, :db, :primary => true
