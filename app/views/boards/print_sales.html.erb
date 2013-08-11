@@ -7,6 +7,10 @@
 			<h2 class="wk_prebill">**PRE-BILL!**</h2>
 		
 		<% end %>
+
+    <% if sale.initials %>
+      <h2 class="wk_initials">Salesperson Initials: <%= sale.initials %></h1>
+    <% end %>
 		
 		
 		<% if sale.reprint == true %>
