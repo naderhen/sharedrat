@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152ee61b-4462-4b60-93b1-3c9f860c3aa4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dashboard/_quick_sale.html.erb" afterPath="$PROJECT_DIR$/app/views/dashboard/_quick_sale.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sales/_sale.html.erb" afterPath="$PROJECT_DIR$/app/views/sales/_sale.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/custom.css" afterPath="$PROJECT_DIR$/public/stylesheets/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/boards/print_sales.html.erb" afterPath="$PROJECT_DIR$/app/views/boards/print_sales.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/boards/print_unprinted_sales.html.erb" afterPath="$PROJECT_DIR$/app/views/boards/print_unprinted_sales.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/boards/print_user_sales.html.erb" afterPath="$PROJECT_DIR$/app/views/boards/print_user_sales.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="BBRatboard.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="152ee61b-4462-4b60-93b1-3c9f860c3aa4" time="1376232866927" ignored="false" />
-    <file path="/a.dummy" changelist="152ee61b-4462-4b60-93b1-3c9f860c3aa4" time="1376234268253" ignored="false" />
+    <file path="/a.dummy" changelist="152ee61b-4462-4b60-93b1-3c9f860c3aa4" time="1376234965192" ignored="false" />
     <file path="/boards_controller.rb" changelist="152ee61b-4462-4b60-93b1-3c9f860c3aa4" time="1365465775409" ignored="false" />
     <file path="/csv_controller.rb" changelist="152ee61b-4462-4b60-93b1-3c9f860c3aa4" time="1365465755489" ignored="false" />
     <file path="/customers_controller.rb" changelist="152ee61b-4462-4b60-93b1-3c9f860c3aa4" time="1365465702087" ignored="false" />
@@ -53,19 +47,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="print_sales.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/boards/print_sales.html.erb">
+      <file leaf-file-name="_quick_sale.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/dashboard/_quick_sale.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.5862069">
+            <state line="24" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20130811150137_add_initials_to_sales.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130811150137_add_initials_to_sales.rb">
+      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+            <state line="172" column="38" selection-start="5416" selection-end="5416" vertical-scroll-proportion="0.33183858">
               <folding />
             </state>
           </provider>
@@ -100,11 +94,11 @@
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/config/moonshine.yml" />
         <option value="$PROJECT_DIR$/app/views/dashboard/_quick_sale.html.erb" />
-        <option value="$PROJECT_DIR$/public/stylesheets/custom.css" />
         <option value="$PROJECT_DIR$/app/views/boards/print_unprinted_sales.html.erb" />
         <option value="$PROJECT_DIR$/app/views/boards/print_user_sales.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sales/_sale.html.erb" />
         <option value="$PROJECT_DIR$/app/views/boards/print_sales.html.erb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/custom.css" />
       </list>
     </option>
   </component>
@@ -678,51 +672,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/reports/show.pdf.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="16" selection-start="577" selection-end="577" vertical-scroll-proportion="0.7586207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sales/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="42" selection-start="5420" selection-end="5420" vertical-scroll-proportion="0.80269057">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sales/_sale.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/boards/print_user_sales.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="272" selection-end="272" vertical-scroll-proportion="-5.7083335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/boards/print_unprinted_sales.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="17" selection-start="272" selection-end="272" vertical-scroll-proportion="-5.7083335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130811150137_add_initials_to_sales.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -783,9 +735,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/moonshine.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="27" selection-start="781" selection-end="781" vertical-scroll-proportion="0.7949309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130811150137_add_initials_to_sales.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.29411766">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/plugins/moonshine/lib/tasks/moonshine.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.03267974">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/boards/print_sales.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.5862069">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard/_quick_sale.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="38" selection-start="5416" selection-end="5416" vertical-scroll-proportion="0.33183858">
           <folding />
         </state>
       </provider>
