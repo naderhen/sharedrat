@@ -3,7 +3,7 @@ before_filter :require_user
   autocomplete :customer, :name, :full=>true
 
   def index
-        @ratboard=Board.for_today.first
+        @ratboard = Board.for_today.first
         @salesreps = Role.find(2).users
         if @ratboard 
           @sales=@ratboard.sales
