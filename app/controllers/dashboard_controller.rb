@@ -4,6 +4,11 @@ before_filter :require_user
 
   def index
         @ratboard = Board.for_today.first
+
+        if @ratboard.blank?
+          @ratboard = Board.last
+        end
+
         @salesreps = Role.find(2).users
         if @ratboard 
           @sales=@ratboard.sales
@@ -13,10 +18,6 @@ before_filter :require_user
         @reports = @current_user.reports
         @users=User.all
         @sale=Sale.new
-        
-        
-        
-        
         
         respond_to do |format|
           format.html
