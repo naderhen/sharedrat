@@ -3,10 +3,8 @@ before_filter :require_user
   autocomplete :customer, :name, :full=>true
 
   def index
-        @ratboard = Board.for_today.first
-
-        if @ratboard.blank?
-          @ratboard = Board.last
+        Board.uncached do
+          @ratboard = Board.where(:board_date => Date.today).first
         end
 
         @salesreps = Role.find(2).users
