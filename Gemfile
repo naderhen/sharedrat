@@ -10,12 +10,14 @@ gem 'rails3-jquery-autocomplete', '>= 0.2.2'
 gem "friendly_id"
 gem "authlogic"
 gem "pdfkit"
-gem 'fastercsv'
+# gem 'fastercsv'
 gem 'will_paginate', '3.0.pre2'
 gem 'paperclip'
-gem 'typus', :git => 'git://github.com/fesplugas/typus.git'
+gem "typus", "~> 3.0.3"
 gem 'pusher'
 gem 'event-calendar', :require => 'event_calendar'
+
+gem 'wkhtmltopdf-binary'
 # Use unicorn as the web server
 # gem 'unicorn'
 
